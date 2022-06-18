@@ -1,7 +1,6 @@
 # Windows Lab on Proxmox
 
-References:
-
+###References:
 https://getlabsdone.com/how-to-install-windows-11-on-proxmox/
 https://getlabsdone.com/how-to-install-windows-server-2022-on-proxmox-ve/
 
@@ -20,8 +19,8 @@ Open Administrator Windows Terminal
 Install Chocolatey - https://chocolatey.org/install#individual
 
 Once installed install:
-    * choco install vscode
-    * choco install git
+    - choco install vscode
+    - choco install git
 
 Create a repo for tracking notes, code etc.
 
