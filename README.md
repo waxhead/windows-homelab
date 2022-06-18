@@ -10,3 +10,14 @@ https://getlabsdone.com/how-to-install-windows-server-2022-on-proxmox-ve/
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
 
+2. Set up the Workstation.
+
+Note the virtio-tools ISO.
+Open Administrator Windows Terminal 
+Install Chocolatey - https://chocolatey.org/install#individual
+
+Once installed install:
+    choco install vscode
+    choco install git
+
+Create a repo for tracking notes, code etc.
