@@ -1,6 +1,7 @@
 # Windows Lab on Proxmox
 
 References:
+
 https://getlabsdone.com/how-to-install-windows-11-on-proxmox/
 https://getlabsdone.com/how-to-install-windows-server-2022-on-proxmox-ve/
 
@@ -21,3 +22,4 @@ Once installed install:
     choco install git
 
 Create a repo for tracking notes, code etc.
+
