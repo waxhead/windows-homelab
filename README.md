@@ -27,15 +27,16 @@ Start/Restart the VM, at the command prompt
 
 Open Administrator Windows Terminal install the following:
 ```
-virtio-win-guest-tools.exe
+virtio-win-gt-x64.msi
 virtio-win-guest-tools.exe
 ```
+
 Install Chocolatey - https://chocolatey.org/install#individual
 
 Once installed install:
     
-    - choco install vscode
-    - choco install git
+    choco install vscode
+    choco install git
 
 Create a repo for tracking notes, code etc.
 
