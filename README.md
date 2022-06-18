@@ -14,12 +14,14 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 2. Set up the Workstation.
 
 Note the virtio-tools ISO.
-Open Administrator Windows Terminal 
+
+Open Administrator Windows Terminal
+
 Install Chocolatey - https://chocolatey.org/install#individual
 
 Once installed install:
-    choco install vscode
-    choco install git
+    * choco install vscode
+    * choco install git
 
 Create a repo for tracking notes, code etc.
 
