@@ -67,3 +67,8 @@ Read JSON:
 ```
 Get-Content <filename> | ConvertFrom-JSON
 ```
+
+Set the execution policy to allow running the PS scripts
+```
+Set-ExecutionPolicy RemoteSigned
+```
