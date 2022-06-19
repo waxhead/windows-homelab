@@ -1,0 +1,18 @@
+{
+    "domain_controller": "DC1",
+    "namespace": "homelab.local",
+    "password": "homelabPW",
+    
+    "firstnames": ["John", "Sandra", "Jane", "Annabelle", "Mary", "Jackson", "Michael"],
+    "surnames": ["Smith", "Rose", "Schumer", "O'Callaghn", "O'Leary", "Moore", "Taylor"],
+    
+    "groups": [
+        {
+            "name": "Engineering"
+        },
+        {
+            "name": "Web Access"
+        }
+    ]
+
+}

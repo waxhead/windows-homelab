@@ -34,9 +34,36 @@ virtio-win-guest-tools.exe
 Install Chocolatey - https://chocolatey.org/install#individual
 
 Once installed install:
-    
+    ```
     choco install vscode
     choco install git
+    ```
 
 Create a repo for tracking notes, code etc.
 
+### Set up remote administration
+
+https://docs.microsoft.com/en-us/windows-server/administration/server-manager/add-servers-to-server-manager
+
+```
+Set-Item wsman:\localhost\Client\TrustedHosts Server01 -Concatenate -force
+```
+
+Set up a PS Session:
+
+```
+$cred = Get-Credential
+$dc = Get-PSSession -ComputerName dc1 -Credential $cred
+Enter-PSSession $dc
+```
+
+Some handy commands:
+
+```
+Copy-Item <filename> -ToSession $dc c:\Tasks
+```
+
+Read JSON:
+```
+Get-Content <filename> | ConvertFrom-JSON
+```
